@@ -1,0 +1,20 @@
+import { Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import { MyNewLib } from './my-new-lib';
+
+<Meta title="MDX/Component" />
+
+export const Template = (args) => <MyNewLib {...args} />;
+
+# Checkbox
+
+With `MDX`, we can define a story for `MyNewLib` right in the middle of our
+Markdown documentation.
+
+<Canvas>
+  <Story
+    name="MyNewLib">
+    {Template.bind({})}
+  </Story>
+</Canvas>
+

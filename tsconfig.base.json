@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@geekcamp-demo/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@geekcamp-demo/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@geekcamp-demo/my-new-lib": ["libs/my-new-lib/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

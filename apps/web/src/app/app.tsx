@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Message } from '@geekcamp-demo/api-interfaces';
+import { MyNewLib } from '@geekcamp-demo/my-new-lib';
 
 export const App = () => {
   const [m, setMessage] = useState<Message>({ message: '' });
@@ -20,6 +21,7 @@ export const App = () => {
           alt="Nx - Smart, Fast and Extensible Build System"
         />
       </div>
+      <MyNewLib></MyNewLib>
       <div>{m.message}</div>
     </>
   );
